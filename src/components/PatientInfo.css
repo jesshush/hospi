@@ -1,0 +1,88 @@
+.patient-info-page {
+    padding: 30px;
+    background-color: #f4f7f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.patient-info-page h2 {
+    font-size: 2.25rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+    font-weight: 700;
+}
+
+/* Table Styles */
+.patient-info-page .table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.patient-info-page .table th,
+.patient-info-page .table td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.patient-info-page .table th {
+    background-color: #e3e6e8;
+    color: #2c3e50;
+    font-weight: 700;
+}
+
+.patient-info-page .table tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Search Bar Styles */
+.patient-info-page .search-bar {
+    margin-bottom: 20px;
+}
+
+.patient-info-page .search-bar input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.patient-info-page .search-bar input:focus {
+    border-color: #007bff;
+    box-shadow: 0 2px 6px rgba(0, 123, 255, 0.2);
+}
+
+/* Button Styles */
+.patient-info-page .btn-secondary {
+    margin-bottom: 30px;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5a5959;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.patient-info-page .btn-secondary:hover {
+    background-color: #004494;
+    transform: translateY(-2px);
+}
+
+.patient-info-page .btn-secondary:focus,
+.patient-info-page .btn-secondary:active {
+    outline: none;
+    text-decoration: none;
+}

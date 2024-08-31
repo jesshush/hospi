@@ -1,0 +1,70 @@
+/* Base style for all alerts */
+.alert {
+    padding: 1rem;
+    border-radius: 0.5rem; /* More rounded corners for a modern look */
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    font-weight: 500; /* Slightly bold text for emphasis */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Smooth transitions */
+}
+
+/* Danger Alert */
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border: 1px solid #f5c6cb; /* Ensure border visibility */
+}
+
+.alert-danger .alert-icon {
+    color: #721c24; /* Icon color for consistency */
+}
+
+/* Warning Alert */
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    border: 1px solid #ffeeba; /* Ensure border visibility */
+}
+
+.alert-warning .alert-icon {
+    color: #856404; /* Icon color for consistency */
+}
+
+/* Info Alert */
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    border: 1px solid #bee5eb; /* Ensure border visibility */
+}
+
+.alert-info .alert-icon {
+    color: #0c5460; /* Icon color for consistency */
+}
+
+/* Success Alert */
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border: 1px solid #c3e6cb; /* Ensure border visibility */
+}
+
+.alert-success .alert-icon {
+    color: #155724; /* Icon color for consistency */
+}
+
+/* Alert Icon Styles (Optional) */
+.alert-icon {
+    margin-right: 0.5rem;
+    font-size: 1.5rem; /* Larger icon for better visibility */
+    vertical-align: middle; /* Align with text */
+}
+
+/* Hover effects for better interaction */
+.alert:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
